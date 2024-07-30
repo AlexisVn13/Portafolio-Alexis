@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #C9C9C9;
+    color: #003B4A;
+    font-family: "Krona One", sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+
+
+}
+.header__menu{
+    display: flex;
+    gap: 80px;
+
+}
+.header__menu__link{
+    font-family: 'Montserrat', sans serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#003B4A;
+    text-decoration: none;
+
+}
+
+.presentacion__contenido__titulo{
+    color: #003B4A;
+    font-family: "Krona One", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.titulo-destaque{
+    color: #00A8DB;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.presentacion__contenido__texto{
+    color: #F6F6F6;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.presentacion{
+    display:flex ;
+    align-items: center;
+    padding: 5% 10%;
+    justify-content: space-between;
+}
+.presentacion__contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion__enlaces{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+.presentacion__enlaces__link{
+    width: 378px;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #F6F6F6;
+    border: 2px solid #003B4A;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.presentacion__enlaces__link:hover{
+    cursor: pointer;
+    background-color: #272727;
+    padding: 3%;
+}
+.presentacion__enlaces__subtitulo{
+    font-family: 'Krona One', sans serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer{
+    background-color: #003B4A;
+    padding: 24px;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    
+}
+.presentacion__contenido__subtitulo{
+    color:#003B4A
+}
+
+.presentacion__contenido__texto a{
+    text-decoration: none;
+    color: #003B4A;
+}
